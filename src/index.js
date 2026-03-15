@@ -58,10 +58,14 @@ const buildExpressApp = () => {
   app.use(express.json({ limit: '1mb' }));
   app.use((_req, res, next) => {
     res.set({
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Headers': 'Content-Type, x-api-key, x-admin-secret',
+      'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
       'X-Content-Type-Options': 'nosniff',
       'X-Frame-Options': 'DENY',
       'X-XSS-Protection': '1; mode=block',
     });
+    if (_req.method === 'OPTIONS') { return res.sendStatus(204); }
     next();
   });
 
