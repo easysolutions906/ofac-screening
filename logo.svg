@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" rx="60" fill="#991b1b"/>
+  <!-- Shield -->
+  <path d="M250 80 L370 140 L370 280 Q370 360 250 420 Q130 360 130 280 L130 140 Z" fill="none" stroke="#ffffff" stroke-width="20" stroke-linejoin="round"/>
+  <!-- Magnifying glass inside shield -->
+  <circle cx="240" cy="230" r="55" fill="none" stroke="#ffffff" stroke-width="16"/>
+  <line x1="278" y1="270" x2="320" y2="315" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <!-- Check mark -->
+  <polyline points="210,230 235,255 275,200" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="250" y="460" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="42" fill="#ffffff">OFAC</text>
+</svg>
