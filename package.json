@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "build-data": "node scripts/build-data.js"
+    "build-data": "node scripts/build-data.js",
+    "check-updates": "node scripts/check-updates.js"
   },
   "keywords": [
     "ofac",
