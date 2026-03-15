@@ -2,10 +2,10 @@ import Stripe from 'stripe';
 import { createKey, revokeKey, loadKeys } from './keys.js';
 
 const PRICE_TO_PLAN = {
-  'price_1TBIexGsl682g3KoUHEuvqD7': 'starter',
-  'price_1TBIfJGsl682g3KoAx498iww': 'pro',
-  'price_1TBIfcGsl682g3Ko3hl50Z4O': 'business',
-  'price_1TBIg0Gsl682g3KoxvKYGNYK': 'enterprise',
+  'price_1TBJRI2dvwjzjXFJ59DrdBfk': 'starter',
+  'price_1TBJRI2dvwjzjXFJVKYaoLig': 'pro',
+  'price_1TBJRJ2dvwjzjXFJt803I9Uf': 'business',
+  'price_1TBJRJ2dvwjzjXFJstl2Tdyy': 'enterprise',
 };
 
 const PLAN_TO_PRICE = Object.fromEntries(
