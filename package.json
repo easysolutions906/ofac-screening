@@ -1,5 +1,5 @@
 {
-  "name": "ofac-api",
+  "name": "@easysolutions906/mcp-ofac",
   "version": "1.0.0",
   "description": "OFAC SDN sanctions screening API with fuzzy matching - screen names against the Treasury Department SDN list",
   "type": "module",
