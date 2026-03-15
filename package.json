@@ -1,0 +1,32 @@
+{
+  "name": "ofac-api",
+  "version": "1.0.0",
+  "description": "OFAC SDN sanctions screening API with fuzzy matching - screen names against the Treasury Department SDN list",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build-data": "node scripts/build-data.js"
+  },
+  "keywords": [
+    "ofac",
+    "sanctions",
+    "sdn",
+    "screening",
+    "compliance",
+    "aml",
+    "kyc",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "double-metaphone": "^2.0.0",
+    "express": "^5.1.0",
+    "fast-xml-parser": "^5.2.0",
+    "stripe": "^20.4.1",
+    "zod": "^3.24.0"
+  }
+}

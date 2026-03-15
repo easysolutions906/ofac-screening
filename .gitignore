@@ -1,0 +1,4 @@
+node_modules/
+src/data/sdn.xml
+src/data/*.csv
+src/data/keys.json
